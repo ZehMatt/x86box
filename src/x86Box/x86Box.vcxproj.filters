@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="inc">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="pub">
+      <UniqueIdentifier>{a713f544-5a86-43d8-9ff9-4679e75e81cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pub\x86box">
+      <UniqueIdentifier>{bdb59c17-2dfc-4f1b-9c36-2175f8afcd27}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\x86box.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jitemulator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jitcodegenerator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\translatorunit.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\asmjittranslate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pub\x86box\x86box.h">
+      <Filter>pub\x86box</Filter>
+    </ClInclude>
+    <ClInclude Include="pub\x86box\common.h">
+      <Filter>pub\x86box</Filter>
+    </ClInclude>
+    <ClInclude Include="pub\x86box\emulator.h">
+      <Filter>pub\x86box</Filter>
+    </ClInclude>
+    <ClInclude Include="pub\x86box\gpreg.h">
+      <Filter>pub\x86box</Filter>
+    </ClInclude>
+    <ClInclude Include="pub\x86box\operand.h">
+      <Filter>pub\x86box</Filter>
+    </ClInclude>
+    <ClInclude Include="pub\x86box\types.h">
+      <Filter>pub\x86box</Filter>
+    </ClInclude>
+    <ClInclude Include="pub\x86box\instruction.h">
+      <Filter>pub\x86box</Filter>
+    </ClInclude>
+    <ClInclude Include="pub\x86box\mnemonic.h">
+      <Filter>pub\x86box</Filter>
+    </ClInclude>
+    <ClInclude Include="pub\x86box\vcontext.h">
+      <Filter>pub\x86box</Filter>
+    </ClInclude>
+    <ClInclude Include="pub\x86box\translator.h">
+      <Filter>pub\x86box</Filter>
+    </ClInclude>
+    <ClInclude Include="pub\x86box\codegenerator.h">
+      <Filter>pub\x86box</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\jitemulator.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\jitcodegenerator.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="pub\x86box\translatorunit.h">
+      <Filter>pub\x86box</Filter>
+    </ClInclude>
+    <ClInclude Include="pub\x86box\memoryhandler.h">
+      <Filter>pub\x86box</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\asmjittranslate.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
